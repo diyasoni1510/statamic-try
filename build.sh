@@ -1,5 +1,3 @@
-# Clear Statamic cache
+echo "Executing build script..."
 php please stache:clear
-
-# Generate static files
 php please static:generate
